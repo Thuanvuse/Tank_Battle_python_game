@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="screenshots/main_menu.png" width="800" alt="Tank Đại Chiến - Ultimate Banner"/>
+  <img src="screenshots/Sanh_Game_Chinh.png" width="800" style="border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);" alt="Tank Đại Chiến - Ultimate Banner"/>
 </p>
 
 <h1 align="center">🔥 TANK ĐẠI CHIẾN - ULTIMATE EDITION v3.0 🔥</h1>
@@ -17,12 +17,33 @@
 
 ---
 
-## 🌟 Ảnh Chụp Demo Trò Chơi (Gameplay Demo)
+## 🌟 Trực Quan Chiến Đấu (Gameplay Demo)
 
 <p align="center">
-  <img src="screenshots/gameplay.png" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" alt="Gameplay Demo"/>
+  <img src="screenshots/Chien_Dau.png" width="800" style="border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);" alt="Gameplay Demo"/>
 </p>
-<p align="center"><i>(Ảnh demo sẽ được cập nhật tại đây)</i></p>
+
+---
+
+## 🖼️ Thư Viện Hình Ảnh Tính Năng (Game Features Gallery)
+
+<p align="center">Đây là bộ sưu tập các tính năng và giao diện cực kỳ đặc sắc của game:</p>
+
+| 🌌 Sảnh Chờ Game (Lobby Room) | 🛒 Cửa Hàng Thú Cưng (Pet Shop) |
+| :---: | :---: |
+| <img src="screenshots/lobby_sanhcho.png" width="380" style="border-radius:8px; box-shadow: 0 4px 8px rgba(0,0,0,0.15);"/> | <img src="screenshots/ShopPet.png" width="380" style="border-radius:8px; box-shadow: 0 4px 8px rgba(0,0,0,0.15);"/> |
+
+| 👥 Chế Độ Co-op 2 Người (Cooperative) | ⚔️ Đấu Trường PVP Đối Kháng |
+| :---: | :---: |
+| <img src="screenshots/COOP.png" width="380" style="border-radius:8px; box-shadow: 0 4px 8px rgba(0,0,0,0.15);"/> | <img src="screenshots/PVP.png" width="380" style="border-radius:8px; box-shadow: 0 4px 8px rgba(0,0,0,0.15);"/> |
+
+| 🏎️ Gara Chọn Xe Tăng (Garage) | 🎡 Vòng Quay May Mắn (Lucky Spin) |
+| :---: | :---: |
+| <img src="screenshots/Gara.png" width="380" style="border-radius:8px; box-shadow: 0 4px 8px rgba(0,0,0,0.15);"/> | <img src="screenshots/Vong_Quay.png" width="380" style="border-radius:8px; box-shadow: 0 4px 8px rgba(0,0,0,0.15);"/> |
+
+| ⚙️ Cài Đặt Trò Chơi (Settings) | 🏢 Phòng Chờ Tạo Đấu PVP |
+| :---: | :---: |
+| <img src="screenshots/Settinggame.png" width="380" style="border-radius:8px; box-shadow: 0 4px 8px rgba(0,0,0,0.15);"/> | <img src="screenshots/TaoPhongPVP.png" width="380" style="border-radius:8px; box-shadow: 0 4px 8px rgba(0,0,0,0.15);"/> |
 
 ---
 
