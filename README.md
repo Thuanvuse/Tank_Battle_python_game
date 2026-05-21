@@ -13,6 +13,7 @@
   <img src="https://img.shields.io/badge/Pygame-2.6+-green?style=for-the-badge&logo=pygame&logoColor=white" alt="Pygame"/>
   <img src="https://img.shields.io/badge/License-All%20Rights%20Reserved-red?style=for-the-badge" alt="License"/>
   <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey?style=for-the-badge" alt="Platform"/>
+  <a href="https://t.me/chimdangxem" target="_blank"><img src="https://img.shields.io/badge/Telegram-@chimdangxem-blue?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Contact"/></a>
 </p>
 
 <p align="center">
@@ -197,9 +198,10 @@ Tank_Battle_python_game/
 
 ---
 
-## 👥 Tác Giả & Bản Quyền
+## 👥 Tác Giả & Liên Hệ (Author & Contact)
 
-*   **Phát triển bởi:** **Thuanvuse** 
+*   **Phát triển bởi:** **Thuanvuse**
+*   **Telegram Liên Hệ Công Việc:** [@chimdangxem](https://t.me/chimdangxem) 💬
 *   **Bản quyền:** Dự án được thiết kế vì mục đích học tập sáng tạo nghệ thuật lập trình trò chơi và giải trí lành mạnh. Nghiêm cấm sao chép thương mại hóa khi chưa có sự đồng ý của tác giả.
 
 <p align="center">
