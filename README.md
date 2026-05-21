@@ -1,263 +1,177 @@
 <p align="center">
-  <img src="screenshots/main_menu.png" width="800" alt="Tank Dai Chien - Main Menu"/>
+  <img src="screenshots/main_menu.png" width="800" alt="Tank Đại Chiến - Ultimate Banner"/>
 </p>
 
-<h1 align="center">TANK DAI CHIEN - ULTIMATE EDITION v3.0</h1>
+<h1 align="center">🔥 TANK ĐẠI CHIẾN - ULTIMATE EDITION v3.0 🔥</h1>
 
 <p align="center">
-  <b>Game xe tang arcade phong cach Battle City voi do hoa procedural, ban do theo chu de, boss fight, cua hang nang cap, che do PVP va AI tu dong choi!</b>
+  <b>Siêu phẩm bắn xe tăng Arcade 2D mang đậm phong cách cổ điển huyền thoại Battle City với đồ họa vẽ bằng thuật toán siêu nét (Procedural Render), hệ thống AI tự động chơi cực thông minh, chế độ mạng PvP đỉnh cao và cơ chế điều khiển cực mượt!</b>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.9+-blue?logo=python&logoColor=white" alt="Python 3.9+"/>
-  <img src="https://img.shields.io/badge/Pygame-2.5+-green?logo=python&logoColor=white" alt="Pygame"/>
-  <img src="https://img.shields.io/badge/License-All%20Rights%20Reserved-red" alt="License"/>
-  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey" alt="Platform"/>
+  <img src="https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.9+"/>
+  <img src="https://img.shields.io/badge/Pygame-2.6+-green?style=for-the-badge&logo=pygame&logoColor=white" alt="Pygame"/>
+  <img src="https://img.shields.io/badge/License-All%20Rights%20Reserved-red?style=for-the-badge" alt="License"/>
+  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey?style=for-the-badge" alt="Platform"/>
 </p>
 
 ---
 
-## Gioi thieu
+## 🌟 Ảnh Chụp Demo Trò Chơi (Gameplay Demo)
 
-**Tank Dai Chien** la game ban xe tang 2D lay cam hung tu **Battle City** kinh dien, duoc xay dung hoan toan bang **Python + Pygame**. Diem dac biet cua game la **toan bo sprite (xe tang, gach, dan, vu no, item...)** deu duoc ve procedural tai runtime boi `sprites.py` - **khong can file anh nao** cho gameplay!
-
-### Diem noi bat
-
-- **9,600+ dong code** game logic + **2,200+ dong** sprite engine
-- **Do hoa 20x supersampled** - moi sprite duoc render o do phan giai gap 20 lan roi thu nho lai, tao hieu ung anti-alias sac net
-- **7 loai ban do** theo chu de: Kawaii Woodland, Default, Desert, Snow, City, Jungle, Lava
-- **Boss fight** moi 5 man
-- **He thong nang cap tank** 5 tier voi hieu ung visual khac nhau
-- **AI Auto-play** voi 3 thuat toan: A*, BFS, DFS
-- **Che do PVP** choi mang (LAN)
-- **Cua hang & Ba lo** mua item su dung trong tran dau
-- **Pet system** - thu cung di theo ho tro chien dau
-- **Hieu ung thoi tiet** tuyet, cat, mua, than lua theo tung ban do
+<p align="center">
+  <img src="screenshots/gameplay.png" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" alt="Gameplay Demo"/>
+</p>
+<p align="center"><i>(Ảnh demo sẽ được cập nhật tại đây)</i></p>
 
 ---
 
-## Screenshot
+## 📖 Giới Thiệu Dự Án
 
-### Menu chinh
-<p align="center">
-  <img src="screenshots/main_menu.png" width="700" alt="Main Menu - Giao dien chinh"/>
-</p>
-<p align="center"><i>Giao dien menu chinh voi background galaxy, hien thi tien va kim cuong</i></p>
+**Tank Đại Chiến - Ultimate Edition** là một dự án game bắn xe tăng 2D đỉnh cao được xây dựng hoàn toàn từ số không bằng ngôn ngữ **Python** và thư viện **Pygame**. 
 
-### Chon man choi
-<p align="center">
-  <img src="screenshots/level_select.png" width="700" alt="Level Select - Chon man"/>
-</p>
-<p align="center"><i>Ban do chon man voi 100+ man choi duoc ket noi boi duong di</i></p>
-
-### Gameplay - Chien dau
-<p align="center">
-  <img src="screenshots/gameplay.png" width="700" alt="Gameplay"/>
-</p>
-<p align="center"><i>Man choi voi dia hinh rung ram - gach, thep, co, nuoc va minimap goc phai</i></p>
-
-<p align="center">
-  <img src="screenshots/gameplay_combat.png" width="700" alt="Combat"/>
-</p>
-<p align="center"><i>Chien dau tieu diet xe tang dich, thu thap item va bao ve can cu</i></p>
-
-### Tam dung & Menu
-<p align="center">
-  <img src="screenshots/pause_menu.png" width="700" alt="Pause Menu - Tam dung"/>
-</p>
-<p align="center"><i>Menu tam dung voi cac lua chon: Tiep tuc, Choi lai, Vao Shop, Ve Sanh, Thoat</i></p>
-
-### Cua hang (Shop)
-<p align="center">
-  <img src="screenshots/shop.png" width="700" alt="Shop - Cua hang"/>
-</p>
-<p align="center"><i>Cua hang voi nhieu tab: Vu Khi, Phong Thu, Pet, Dac Biet, Gara Tank</i></p>
+Điểm độc bản mang lại đẳng cấp vượt trội cho trò chơi nằm ở **Cơ chế đồ họa Procedural (Sinh mã đồ họa động tại Runtime)**: Toàn bộ sprite từ xe tăng, đạn bắn, chướng ngại vật (gạch, thép, cỏ, nước, hòm gỗ) cho đến hiệu ứng cháy nổ hạt đều được vẽ trực tiếp bằng các thuật toán toán học tiên tiến thông qua tệp `sprites.py` với chất lượng **20x Supersampled (Siêu lấy mẫu khử răng cưa)** – mang lại hình ảnh mượt mà, sắc nét đỉnh cao mà không cần tải bất kỳ tệp hình ảnh rời nào!
 
 ---
 
-## Yeu cau he thong
+## ⚡ Các Tính Năng Cao Cấp Mới Nâng Cấp (New Premium Updates)
 
-| Yeu cau | Chi tiet |
-|---------|----------|
-| **Python** | 3.9 tro len |
-| **Pygame** | >= 2.5.0 |
-| **NumPy** | >= 1.24.0 (tuy chon, tang hieu nang) |
-| **He dieu hanh** | Windows / Linux / macOS |
-| **Man hinh** | Toi thieu 1280x720 |
+Nhằm mang lại trải nghiệm chơi mượt mà nhất như các tựa game AAA hiện đại, chúng tôi đã nâng cấp và tối ưu hóa hệ thống cốt lõi của trò chơi:
+
+*   🚀 **Siêu Khử Lag & Đột Phá Hiệu Năng (60 FPS Lock):** Thay thế việc co giãn hình ảnh (`pygame.transform.scale`) lặp đi lặp lại ở mỗi khung hình bằng bộ nhớ đệm thông minh `scaled_tile_cache` vẽ động. Game chạy khóa cứng ở **60 FPS mượt mà tuyệt đối** ngay cả trên các bản đồ khổng lồ ở màn 7 trở đi (hơn 2300 ô gạch).
+*   🎮 **Cơ Chế Lái Xe Tăng Chuẩn Arcade (AAA Corner-Sliding):** Tích hợp thuật toán tự động căn giữa làn đường (Lane Alignment) kết hợp **bo cua thông minh (Corner Alleviation)**. Xe tăng sẽ tự động lướt mượt mà qua các mép tường hẹp mà không bao giờ bị khựng, mang lại phản xạ chiến đấu đỉnh cao.
+*   🧭 **Di Chuyển Chéo Siêu Mượt (True Diagonal Movement):** Cho phép người chơi di chuyển chéo hoàn toàn mượt mà, tự động phân tích và trượt dọc theo các bức tường khi đi chéo mà không bị dừng đột ngột.
+*   📐 **Tự Động Thu Nhỏ Bản Đồ Con (Smart Compact Mini-map):** Bản đồ con được cố định kích thước tối đa khoa học `240x180` pixels. Bản đồ càng to sẽ tự động co nhỏ các chi tiết lại, hoàn toàn không phình to che khuất tầm nhìn của người chơi.
+*   🔒 **Khóa Trỏ Chuột Thông Minh (Mouse Input Grab):** Tự động khóa con trỏ chuột trong phạm vi cửa sổ trò chơi khi chiến đấu nhằm loại bỏ hoàn toàn việc trỏ chuột bị trượt ra ngoài bấm nhầm, tự động giải phóng chuột khi game Tạm dừng (`Pause`) hoặc ở Sảnh chờ (`Lobby`).
+*   🛡️ **Bảo Vệ Can Cứ Tuyệt Đối (Invulnerable Base):** Loại bỏ hoàn toàn khối Nhà chính Star-Heart dễ bị phá hủy bởi đồng đội hoặc Boss bắn nhầm ở chế độ tự động chơi. Giờ đây bạn có thể thoải mái chiến đấu xả láng mà không sợ bị "tự hủy"!
+*   🖥️ **Độ Phân Giải Vàng Mặc Định (`1024x576`):** Tối ưu hóa kích thước cửa sổ mở ban đầu vừa vặn tuyệt đẹp với mọi dòng màn hình laptop (đặc biệt là máy tính có chế độ High-DPI Windows Scaling), cho phép kéo giãn tự do hoặc ấn **`F11`** để chơi toàn màn hình sắc nét.
 
 ---
 
-## Cai dat & Chay game
+## 🎮 Hướng Dẫn Điều Khiển (Game Controls)
 
-### Cach 1: Chay truc tiep (tat ca he dieu hanh)
+Trò chơi hỗ trợ hệ thống điều khiển kết hợp WASD + Chuột vô cùng hiện đại và dễ làm quen:
 
+| Phím bấm | Hành động trong game |
+| :--- | :--- |
+| **`W` `A` `S` `D`** / **Arrow Keys** | Di chuyển xe tăng (hỗ trợ di chuyển chéo siêu mượt) |
+| **`Chuột Trái / Phím Space`** | Bắn đạn ngắm theo hướng con trỏ chuột |
+| **`L-Shift / R-Shift`** | Kích hoạt tăng tốc (Sprint) - Tiêu hao năng lượng |
+| **`Esc`** | Tạm dừng game (Pause) / Quay lại Menu chính |
+| **`F11`** | Bật/Tắt chế độ Toàn màn hình (Fullscreen) |
+| **`F`** | Bật/Tắt chế độ AUTO (Để AI tự động điều khiển chiến đấu) |
+| **`G`** | Thay đổi thuật toán tìm đường của AI (**A*** -> **BFS** -> **DFS**) |
+| **`1` / `2` / `3`** | Sử dụng nhanh vật phẩm bổ trợ trong Ba lô (Slot 1, 2, 3) |
+| **`Q` / `E`** | Chuyển đổi qua lại giữa các tab trong Cửa hàng (Shop) |
+| **`0` - `9`** | Mua nhanh vật phẩm tương ứng trong Cửa hàng |
+
+---
+
+## 🎨 Thế Giới Bản Đồ & Chu Đề Thần Thoại
+
+Trò chơi bao gồm **7 vùng đất độc đáo** xoay vòng liên tục theo các màn chơi, đi kèm với các hiệu ứng thời tiết động chân thực:
+
+| Vùng đất (Theme) | Mô tả phong cảnh | Hiệu ứng thời tiết |
+| :--- | :--- | :--- |
+| **🌲 Kawaii Woodland** | Khu rừng thần tiên dễ thương phong cách Nhật Bản | Cánh hoa đào bay lãng mạn |
+| **🧱 Default** | Phong cách đấu trường cổ điển đậm chất Retro Battle City | Trời xanh mây trắng |
+| **🏜️ Desert** | Hoang mạc cát vàng nóng bỏng, nắng cháy | Bão cát sa mạc mịt mù |
+| **❄️ Snow** | Vùng đất tuyết rơi trắng xóa lấp lánh | Tuyết rơi mùa đông dày đặc |
+| **🌆 City** | Thành phố hiện đại với những khối kính và bê tông | Mơn man mưa bay tầm tã |
+| **🌴 Jungle** | Rừng rậm nhiệt đới ẩm ướt đầy chướng ngại vật | Mưa giông mưa rừng nhiệt đới |
+| **🌋 Lava** | Vùng đất núi lửa phun trào nham thạch nguy hiểm | Than lửa và tro bụi đỏ rực bay |
+
+---
+
+## 🎖️ Hệ Thống Tiến Hóa Xe Tăng (Tank Upgrade Tiers)
+
+Bạn có thể nâng cấp súng và thu thập chiến lợi phẩm ngay trên bản đồ để nâng cấp cấp độ xe tăng của mình với các chỉ số và hiệu ứng đặc trưng:
+
+*   🟢 **Tier 1 (Xanh lá - Cơ bản):** Xe tăng chiến đấu hạng nhẹ, phát bắn cơ bản.
+*   🟡 **Tier 2 (Vàng - Rapid Fire):** Nâng cao nòng pháo kép, tăng tốc độ nạp đạn đáng kể.
+*   🟠 **Tier 3 (Cam - Heavy Shot):** Nòng pháo lớn, đạn bắn ra to hơn và sát thương cực mạnh.
+*   🔴 **Tier 4 (Đỏ Cam - Piercing Laser):** Pháo năng lượng cao, đạn bắn xuyên phá qua gạch đá.
+*   💎 **Tier 5 (Premium Chrome - Ultimate):** Sức mạnh hủy diệt tối đa, giáp siêu bền, bắn đạn chùm hủy diệt.
+
+---
+
+## 📦 Các Vật Phẩm Đặc Biệt & Vũ Khí Phụ (Power-Ups)
+
+| Icon / Vật phẩm | Tác dụng tức thì |
+| :--- | :--- |
+| **❤️ Health** | Phục hồi ngay lập tức 1 Điểm máu (HP) |
+| **🛡️ Shield** | Kích hoạt lá chắn năng lượng bảo vệ bất tử tạm thời |
+| **⚡ Speed** | Hồi đầy thanh năng lượng chạy nhanh ngay lập tức |
+| **⭐ Star (Clear)** | Kích nổ quả bom nguyên tử xóa sổ toàn bộ kẻ địch trên màn hình |
+| **❄️ Freeze** | Đóng băng, làm bất động toàn bộ quân địch trong 5 giây |
+| **🚀 Rocket** | Bắn ra tên lửa tầm nhiệt tự tìm và tiêu diệt mục tiêu lớn nhất |
+| **🔥 Flame** | Kích hoạt súng phun lửa đốt cháy mọi chướng ngại vật trên đường đi |
+
+---
+
+## 🛠️ Yêu Cầu Hệ Thống & Cài Đặt (System Setup)
+
+### 📋 Yêu cầu cấu hình tối thiểu
+*   **Hệ điều hành:** Windows 10/11, macOS, hoặc Linux
+*   **Python version:** `>= 3.9` (Khuyên dùng Python 3.10+)
+*   **Pygame version:** `>= 2.6.0`
+
+### 💻 Các bước chạy trò chơi nhanh chóng
+
+#### Cách 1: Chạy bằng mã nguồn gốc (Khuyên dùng)
 ```bash
-# Clone repo
-git clone https://github.com/Thuanvuse/desktop-tutorial.git
-cd desktop-tutorial
+# 1. Tải dự án về máy của bạn
+git clone https://github.com/Thuanvuse/Tank_Battle_python_game.git
+cd Tank_Battle_python_game
 
-# Cai dat thu vien
+# 2. Cài đặt các thư viện cần thiết
 pip install -r requirements.txt
 
-# Chay game (fullscreen)
+# 3. Khởi động trò chơi
 python tank_game.py
-
-# Hoac chay o che do cua so (debug)
-TANK_WINDOWED=1 python tank_game.py
 ```
 
-### Cach 2: Dung file bat (Windows)
+#### Cách 2: Chạy tự động (Dành riêng cho Windows)
+Bạn chỉ cần nhấp đúp chuột vào tệp **`setup_and_run.bat`**. Tệp script thông minh này sẽ tự động:
+1. Kiểm tra môi trường Python trên máy tính.
+2. Tự động cài đặt thư viện `pygame` nếu máy chưa có.
+3. Kích hoạt trò chơi ngay lập tức mà không cần gõ lệnh.
 
-Nhan doi **`setup_and_run.bat`** - file se tu dong:
-1. Kiem tra Python da cai chua
-2. Cai pygame neu thieu
-3. Khoi dong game
-
-### Cach 3: Build thanh file .exe (Windows)
-
-Nhan doi **`build_exe.bat`** de build thanh file `dist/TankBattle.exe` chay doc lap.
+#### Cách 3: Đóng gói thành file chạy độc lập (.exe)
+Nhấp đúp chuột vào tệp **`build_exe.bat`** để tự động đóng gói dự án thành một tệp ứng dụng `dist/TankBattle.exe` duy nhất để bạn có thể gửi tặng bạn bè chơi trực tiếp không cần cài Python.
 
 ---
 
-## Dieu khien
+## 📂 Sơ Đồ Cấu Trúc Dự Án (Project Folder Map)
 
-| Phim | Hanh dong |
-|------|-----------|
-| **WASD** / **Phim mui ten** | Di chuyen xe tang |
-| **Space** | Ban |
-| **Enter** | Xac nhan / Bat dau / Tiep tuc |
-| **Esc** | Tam dung (trong game) / Quay lai |
-| **F** | Bat/Tat che do AUTO (AI choi) |
-| **G** | Chuyen thuat toan AUTO (A* / BFS / DFS) |
-| **1 / 2 / 3** | Su dung item trong ba lo |
-| **H** | Huong dan choi (tu menu chinh) |
-| **F11** | Chuyen doi fullscreen / cua so |
-| **Q / E** | Chuyen tab trong cua hang |
-| **0-9** | Mua item (trong cua hang) |
-
----
-
-## Tinh nang chi tiet
-
-### Ban do theo chu de
-Game co **7 loai ban do** xoay vong theo man choi:
-
-| Ban do | Dac diem | Thoi tiet |
-|--------|----------|-----------|
-| Kawaii Woodland | Rung xinh xan phong cach kawaii | Hoa roi |
-| Default | Phong cach co dien Battle City | Binh thuong |
-| Desert | Sa mac nong bong | Bao cat |
-| Snow | Tuyet trang bao phu | Tuyet roi |
-| City | Thanh pho hien dai | Mua |
-| Jungle | Rung ram nhiet doi | Mua nhiet doi |
-| Lava | Nui lua nong chay | Than lua |
-
-### He thong tier xe tang
-Thu thap vu khi nang cap de tien hoa xe tang qua **5 tier**:
-
-| Tier | Mau sac | Dac diem |
-|------|---------|----------|
-| 1 | Xanh la | Co ban |
-| 2 | Vang | Tang toc do ban |
-| 3 | Cam | Dan manh hon |
-| 4 | Do cam | Dan xuyen thau |
-| 5 | Chrome Premium | Suc manh toi da |
-
-### Item trong game
-
-| Item | Hieu ung |
-|------|----------|
-| Health | +1 HP |
-| Life | Them 1 mang |
-| Shield | +3 khien bao ve |
-| Speed | Nap day nang luong |
-| Rapid | Ban lien thanh |
-| Multi | Ban 3 huong |
-| Pierce | Dan xuyen tuong |
-| Bomb | Dan no |
-| Laser | Tia laser |
-| Plasma | Dan plasma |
-| Star | Bom xoa man hinh |
-| Freeze | Dong bang tat ca dich 5 giay |
-| Max Power | Nang cap tang toi da ngay lap tuc |
-| Grenade | No vung rong (ban kinh 4 o) |
-
-### Cua hang & Ba lo
-- Mua item bang tien kiem duoc trong tran
-- Ba lo 3 slot - nhan **1/2/3** de su dung
-- 5 tab: **Vu Khi**, **Phong Thu**, **Pet**, **Dac Biet**, **Gara Tank**
-
-### Che do PVP (Choi mang)
-- Ket noi qua mang LAN
-- Dau tank 1v1 voi nguoi choi khac
-- He thong xep hang va tien thuong hang ngay
-
-### AI Auto-play
-Nhan **F** de bat che do AI tu dong choi, nhan **G** de chuyen thuat toan:
-- **A*** - Tim duong toi uu
-- **BFS** - Tim duong theo chieu rong
-- **DFS** - Tim duong theo chieu sau
-
----
-
-## Cau truc du an
-
-```
-desktop-tutorial/
-├── tank_game.py          # Game chinh - vong lap, logic, state machine (9,600+ dong)
-├── sprites.py            # Engine sprite procedural 20x supersampled (2,200+ dong)
-├── requirements.txt      # Thu vien can thiet
-├── save_data.json        # Du lieu luu tien do
-├── nhacnen.mp3           # Nhac nen game
-├── TACH.mp3              # Hieu ung am thanh
-├── setup_and_run.bat     # Script cai dat & chay (Windows)
-├── build_exe.bat         # Script build file .exe (Windows)
-├── IMG/                  # Hinh anh giao dien
-│   ├── br.jpg            # Background menu chinh
-│   ├── pointer.png       # Con tro chuot tuy chinh
-│   ├── chiendau.png      # Nut "Chien Dau"
-│   ├── cuahang.png       # Nut "Cua Hang"
-│   ├── gara.png          # Nut "Gara"
-│   ├── choimang.png      # Nut "Choi Mang"
-│   ├── nangcap.png       # Nut "Nang Cap"
-│   ├── thanhtuu.png      # Nut "Thanh Tuu"
-│   └── button.png        # Template nut bam
-├── screenshots/          # Anh chup man hinh demo
-│   ├── main_menu.png
-│   ├── level_select.png
-│   ├── level_start.png
-│   ├── gameplay.png
-│   ├── gameplay_combat.png
-│   ├── pause_menu.png
-│   └── shop.png
-└── README.md
+```text
+Tank_Battle_python_game/
+├── tank_game.py          # Vòng lặp game cốt lõi, State Machine và xử lý sự kiện (9,700+ dòng code)
+├── sprites.py            # Công cụ vẽ Procedural sinh động đồ họa khử răng cưa siêu mẫu (2,200+ dòng code)
+├── requirements.txt      # Tệp danh sách các thư viện cần cài đặt (pygame, numpy...)
+├── save_data.json        # Tệp lưu trữ tiền vàng, kim cương và tiến trình mở khóa màn chơi
+├── nhacnen.mp3           # Nhạc nền Retro hoành tráng, cuốn hút của trò chơi
+├── TACH.mp3              # Tệp hiệu ứng âm thanh sống động khi bắn và nổ tung
+├── setup_and_run.bat     # Tập lệnh cài đặt và mở game nhanh trên Windows
+├── build_exe.bat         # Tập lệnh đóng gói game thành tệp .exe chạy độc lập
+├── .gitignore            # Cấu hình loại trừ các tệp tạm thời khỏi Git
+├── README.md             # Tệp hướng dẫn sử dụng và giới thiệu trò chơi chi tiết
+├── IMG/                  # Thư mục chứa các tệp hình ảnh sảnh giao diện chính
+│   ├── br.jpg            # Hình nền sảnh thiên hà tuyệt đẹp
+│   └── pointer.png       # Tâm ngắm chuột chiến đấu tùy chỉnh
+└── screenshots/          # Thư mục chứa các hình ảnh chụp màn hình giới thiệu
+    ├── main_menu.png
+    ├── level_select.png
+    └── gameplay.png
 ```
 
 ---
 
-## Cong nghe su dung
+## 👥 Tác Giả & Bản Quyền
 
-- **Python 3** - Ngon ngu chinh
-- **Pygame** - Framework game 2D
-- **NumPy** (tuy chon) - Tang hieu nang tinh toan
-- **Procedural Generation** - Toan bo sprite ve bang code, khong dung file anh
-- **A*/BFS/DFS** - Thuat toan tim duong cho AI
-- **Socket/Threading** - He thong mang cho PVP
-- **JSON** - Luu tien do nguoi choi
-
----
-
-## Tac gia
-
-**Thuanvuse** - Du an hoc tap va giai tri
-
----
+*   **Phát triển bởi:** **Thuanvuse** 
+*   **Bản quyền:** Dự án được thiết kế vì mục đích học tập sáng tạo nghệ thuật lập trình trò chơi và giải trí lành mạnh. Nghiêm cấm sao chép thương mại hóa khi chưa có sự đồng ý của tác giả.
 
 <p align="center">
-  <img src="screenshots/gameplay.png" width="400" alt="Gameplay preview"/>
-  <img src="screenshots/shop.png" width="400" alt="Shop preview"/>
-</p>
-
-<p align="center">
-  <b>Chuc ban choi vui ve! Have fun playing!</b>
+  <b>🌟 Chúc bạn có những giây phút chiến đấu tuyệt vời và sảng khoái nhất! Have fun playing! 🌟</b>
 </p>
