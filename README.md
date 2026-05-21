@@ -15,6 +15,15 @@
   <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey?style=for-the-badge" alt="Platform"/>
 </p>
 
+<p align="center">
+  <b>💖 ỦNG HỘ NHÀ PHÁT TRIỂN (DONATE & SUPPORT) 💖</b><br>
+  <i>Nếu bạn yêu thích dự án này và muốn tiếp thêm động lực cho tác giả phát triển thêm nhiều tính năng mới, hãy quét mã QR bên dưới nhé! Xin chân thành cảm ơn sự đồng hành và ủng hộ của bạn!</i>
+</p>
+
+<p align="center">
+  <img src="screenshots/donate.png" width="200" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); border: 3px solid #ff4a5a;" alt="Mã QR Quyên Góp"/>
+</p>
+
 ---
 
 ## 🌟 Trực Quan Chiến Đấu (Gameplay Demo)
